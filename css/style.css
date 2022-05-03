@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Radio+Canada&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Radio Canada', sans-serif;
+    color: white;
+    background-color: #59341E;
+}
+a{
+    text-decoration: none;
+    color: white;
+}  
+
+
+/* class para centralizar todo o conteudo */
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+}
+/* Cabeçalho */
+header{
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid #A6774E;
+    
+}
+.header1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    margin-bottom: -9px;
+    font-weight: 600;
+}
+.logo h2{
+    color: #A6774E;
+    letter-spacing: -1px;
+    font-style: italic;
+}
+.redes-sociais {
+    display: flex;
+
+}
+.redes-sociais i{
+    padding: 10px;
+}
+/* conteúdo principal */
+main{
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #A6774E;
+}
+
+/* Apresentação */
+.intro{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.intro h2{
+    margin-bottom: 20px;
+}
+.intro p{
+    line-height: 25px;
+}
+.intro img{
+    width: 300px;
+}
+
+
+.call_to_action{
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 5px;
+     
+    border-radius: 10px;
+  
+}
+/* Formulário */
+.form-container{
+    display: flex;
+    flex-direction: column;
+     
+    
+}
+input{
+    margin: 5px;
+    font-family: 'Radio Canada', sans-serif;
+    padding: 10px;
+    background-color: #6e4126;
+    color: white;
+    border: 3px solid #A6774E;
+    border-radius: 8px;
+}
+input::placeholder{
+    color: white;
+}
+input[type='submit']{
+    background-color: #59341E;
+    font-size: 16px;
+}
+input[type='submit']:hover{
+    background-color: #754427;
+    cursor: pointer;
+}
+
+
+/* Roteiro */
+.roteiro{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.roteiro h3{
+    margin: 20px 0;
+    text-align: center;
+  
+}
+.temas{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+   
+}
+.r1{
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #41200e;
+    box-shadow: 2px 2px 2px #261308;
+   
+    
+}
+.r1 h4{
+    color: #ac643b;
+}
+.r1 p{
+    line-height: 25px;
+    margin-top: 4px;
+}
+.toAction2{
+    width: 100px;
+    background-color: #261308;
+    margin: 20px 0;
+    padding: 5px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+.criador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.criador h4{
+    margin: 8px 1px;
+    font-weight: 400;
+}
+.criador-bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 20px;
+    background-color: #754427;
+    box-shadow: 2px 2px 2px #462817;
+}
+
+.criador-bloco img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.criador-bloco p{
+    padding: 5px;
+}
+/* footer */
+.footer{
+    background-color: #754427;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .center{
+       overflow-x: hidden;
+       width: 90%; 
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+       
+    }
+    .intro{
+        
+    }
+    .intro h2{
+       text-align: center;
+    }
+    .intro p{
+       
+      font-size: 13px;  
+        line-height: 15px;
+    }
+    .intro img{
+        display: none;
+    }
+    .r1{
+        width: 300px;
+    }
+    
+  
+}
