@@ -242,8 +242,13 @@ input[type='submit']:hover{
 }
 
 @media screen and (max-width: 360px){
+    .center{
+        width: 95%;
+    }
     .header1{
+        width: 90%;
         display: block;
+        margin: auto;
     }
     .redes-sociais i:first-child{
         padding-left: 0;
