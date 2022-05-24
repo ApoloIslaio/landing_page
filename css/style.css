@@ -241,7 +241,7 @@ input[type='submit']:hover{
     }
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 380px){
     .center{
         width: 95%;
     }
